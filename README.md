@@ -47,6 +47,32 @@ The analysis was rerun against the source transaction file before publication.
 | Regular | 695 | 30.23 days | 77.00 | £2,397.47 | 20.68% |
 | Loyal High-Value | 884 | 2.50 days | 209.56 | £6,237.99 | 68.44% |
 
+## Visualisations
+
+### Customer spend concentration
+
+![Share of customer spend by segment](visualizations/customer_spend_share.svg)
+
+The Loyal High-Value segment accounts for **68.4% of observed spend**, making customer value highly concentrated.
+
+### Observed promotion uplift
+
+![Observed promotion uplift by segment](visualizations/promotion_uplift.svg)
+
+All four segments show higher average unit sales in promoted product-weeks. This is an observational comparison and should not be interpreted as causal lift.
+
+### Average household spend
+
+![Average household spend by segment](visualizations/average_spend.svg)
+
+Average household spend rises from about **£408** in Low-Value to about **£6,238** in Loyal High-Value.
+
+### Promotion economics
+
+![Promotion economics scenario](visualizations/promotion_economics.svg)
+
+Under the **25% gross-margin scenario**, estimated incremental sales do not generate enough gross profit to cover observed store-discount cost.
+
 ## Commercial interpretation
 
 Promoted product-weeks showed materially higher unit sales than non-promoted weeks. The highest measured percentage uplift was among **Low-Value** customers, but this group represented only about **2% of total spend**. The **Loyal High-Value** group represented about **68% of spend** and still showed substantial measured uplift.
